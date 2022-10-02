@@ -20,6 +20,8 @@ myList = os.listdir(path)  # to grab the list of images from the folder(in the f
 
 count = 0
 
+#abc
+
 for cl in myList:
     curImg = cv2.imread(f'{path}/{cl}') # imread function comes with open cv
     images.append(curImg)
